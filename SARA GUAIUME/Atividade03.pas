@@ -1,5 +1,5 @@
 Program Atividade03 ;
-	uses crt
+	uses crt;
 	var n1, n2, n3, mediaPonderada, p1, p2, p3: real;
 
 Begin
@@ -21,9 +21,9 @@ Begin
 	write('Digite o peso da nota 3: ');
 	readln(p3);	
 		
-	mediaPonderada := (n1*p1 + n2*p2 n3*p3)/(p1+p2+p3);
+	mediaPonderada := (n1*p1 + n2*p2 + n3*p3)/(p1+p2+p3);
 		
-	write('Sua média Ponderada é: ', mediaPonderada:4:2);
+	write('Sua mÃ©dia Ponderada Ã©: ', mediaPonderada:4:2);
 	readln;
 		
   
